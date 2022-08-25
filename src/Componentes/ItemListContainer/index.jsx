@@ -1,10 +1,11 @@
 import React from 'react';
 import './ItemListContainer.css';
+import Title from '../Title';
 
 export const ItemListContainer = () => {
     return(
         <div className='ItemListContainer'>
-            Item List Container
+            <Title greeting='Coder' />
         </div> 
     )
 }

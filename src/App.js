@@ -6,33 +6,8 @@ import ItemListContainer from './Componentes/ItemListContainer';
 function App() {
   return (
     <div>
-      <BootstrapNavBar /> 
-      <listContainer className="ItemList">
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-        <ItemListContainer />
-      </listContainer>
+      <BootstrapNavBar />       
+      <ItemListContainer />
     </div>
   );
 }

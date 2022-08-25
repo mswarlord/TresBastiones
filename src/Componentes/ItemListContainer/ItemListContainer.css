@@ -1,4 +1,4 @@
-.ItemList{
+.ItemListContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
@@ -6,19 +6,7 @@
     padding: 0;
     text-align: center;
     width: 90%;
+    height: 50vh;
     margin: 2em auto auto auto;
-}
-
-.ItemListContainer{
-    background-color: blueviolet;
-    margin-top: 0.3em ;
-    background: linear-gradient(235deg, rgba(41,41,41,1) 0%, rgba(56,56,56,1) 47%, rgba(79,79,79,1) 100%);   width: 15em;
-    height: 20em;
-    width: 200px;
-    border-radius: 12px;
-    color: aliceblue;
-    position: relative;
-    transition: 0.3s;
-    border: 0px;
-    box-shadow: 0.4em 0.2em 1em #11111188;
+    background-color: beige;
 }

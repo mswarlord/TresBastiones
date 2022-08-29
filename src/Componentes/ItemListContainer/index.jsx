@@ -1,13 +1,12 @@
 import React from 'react';
 import './ItemListContainer.css';
-import Title from '../Title';
 
-export const ItemListContainer = () => {
+export const ItemListContainer = () => {    
     return(
         <div className='ItemListContainer'>
-            <Title greeting='Coder' />
-        </div> 
-    )
+
+        </div>
+        )
 }
 
 export default ItemListContainer;

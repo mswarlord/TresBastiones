@@ -1,12 +1,10 @@
 .ItemListContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     justify-items: center;
     padding: 0;
-    text-align: center;
-    width: 90%;
-    height: 50vh;
-    margin: 2em auto auto auto;
-    background-color: beige;
+    margin: 1em auto 1em auto;
+    padding: 1em;
+    background: linear-gradient(180deg, #bbb 0%, #aaa 47%, #555 100%);
 }
